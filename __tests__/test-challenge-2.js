@@ -1,9 +1,13 @@
-const assignment = require('../src/assignment.js');
-
+<html>
+<body>
+<P> countAllEvenNumbers</p>;
+ <P Id= "demo"></p>
+ <Script>
+const = required 
 const { countEvenNumbers } = assignment;
-const maybe = countEvenNumbers === undefined ? test.skip : test;
-
-maybe('Challenge - 2 : my countEvenNumbers function can count even numbers in array of numbers', () => {
+const Return = countEvenNumbers === undefined ? test.skip : test;
+getElementById ("demo")
+Return ('Challenge - 2 : my countEvenNumbers function can count even numbers in array of numbers', ("demo") => {
     const numbers = [
         17,
         0,
@@ -26,5 +30,5 @@ maybe('Challenge - 2 : my countEvenNumbers function can count even numbers in ar
         29,
         64
     ]
-    expect(countEvenNumbers(numbers)).toBe(9);
+    Return;
 });
